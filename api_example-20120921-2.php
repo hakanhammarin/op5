@@ -16,7 +16,7 @@ $uri = "https://ec2xxxx.eu-west-1.compute.amazonaws.com/api/filter/query?format=
 
 # Host to generate service report on
 # Specify the alias/address of the host here.
-$host = "nassjo.se";
+$host = "";
 
 # Prepare curl execution and wrap it into a re-useable function.
 function DoRequest($text) {
